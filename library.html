@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library Application</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div class="container">
+        <h3 class="title">BOOK ADDING FORM</h3>
+        <form id="bookform">
+            <label for="bookname">Book Name:</label>
+            <input type="text" name="" id="txtbookname"/>
+            <label for="bookauthor">Book Author:</label>
+            <input type="text" name="" id="txtbookauthor"/>
+            <label for="bookisbn">Book ISBN:</label>
+            <input type="text" name="" id="txtbookisbn"/>
+
+            <input type="submit" value="Book Add" id="btnadd"/>
+            
+        </form>
+
+
+        <span>
+            <table id="booklist">
+                <tr>
+                    <th>Book Name</th>
+                    <th>Book Author</th>
+                    <th>ISBN Number</th>
+                    <th>Delete Book</th>
+                </tr>
+                <!--There is td adding-->
+            </table>
+        </span>
+        <h5 id="result">You haven't added any books yet! </h5>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
