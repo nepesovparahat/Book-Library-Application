@@ -21,6 +21,9 @@ class user_interface{
 
     }
     bookcount(){
+    const tabl=document.getElementById("booklist");
+    var bookcount=document.getElementsByTagName("tr").length-1;
+    document.getElementById("result").innerHTML="Ther is "+bookcount+ " book";
 
     }
     time_out(){
@@ -30,6 +33,9 @@ class user_interface{
 
     }
     formclear(){
+        document.getElementById("txtbookname").value="";
+        document.getElementById("txtbookauthor").value="";
+        document.getElementById("txtbookisbn").value="";
 
     }
 
@@ -43,10 +49,17 @@ document.getElementById("bookform").addEventListener("submit",function(e){
     
     if(bookname!="" && bookauthor!="" && bookisbn!=""){
         u_interface.bookadd(book);
-        document.getElementById("result").innerHTML="Successfully";
+        u_interface.bookcount();
+       // document.getElementById("result").innerHTML="Successfully";
+        u_interface.formclear();
     }
     else{
-        document.getElementById("result").innerHTML="Please do not leave blank fields!!!";
+        
+
+            document.getElementById("result").innerHTML="Please do not leave blank fields!!!";
+        
+        
+        
     }
     
     e.preventDefault();
