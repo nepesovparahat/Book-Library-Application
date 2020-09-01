@@ -3,5 +3,6 @@
 ![book library](https://user-images.githubusercontent.com/67821216/91844222-b91daf00-ec5f-11ea-9fed-8fafa8604dfb.gif)<br><br>
 
 
-<a href="asynchronous.html">asynchronous</a>
+<a href="asynchronous.html">asynchronous</a><br>
+<a href="index1.js">index1</a>
 ## In asynchronous.html and index1.js file i made an example about asynchronous and synchronous operations.
