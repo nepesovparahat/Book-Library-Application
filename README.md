@@ -1,6 +1,6 @@
 # Book-Library-Application
 ## Library application with javascript. You can add a book, you can delete it etc.
-Project open source link: https://pensive-goldwasser-51e8a3.netlify.app/
+Project open source link: https://pensive-goldwasser-51e8a3.netlify.app/<br>
 ![book library](https://user-images.githubusercontent.com/67821216/91844222-b91daf00-ec5f-11ea-9fed-8fafa8604dfb.gif)<br><br>
 
 
